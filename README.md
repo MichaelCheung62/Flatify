@@ -1,3 +1,1 @@
 # Flatify
-
-## Project 2
