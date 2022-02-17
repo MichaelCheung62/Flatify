@@ -4,19 +4,22 @@
   height: 100vh;
 }
 
-.welcome-text {
-  transform: translateY(10rem);
-}
+
+ 
 
 .nav {
   display: flex;
   align-items: center;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  background-color: gray;
 }
+
+
 
 .nav h2 {
   margin: 0 11rem;
+  transform: translate(-60%, 60%)
+  
+  
 }
 
 .nav-items {
@@ -24,6 +27,7 @@
   display: flex;
   list-style: none;
   justify-content: flex-end;
+  transform: translate(10%, -30%)
 }
 
 .nav-items > li {
@@ -62,11 +66,11 @@
 }
 
 .favorite-button {
-  color: red;
+  color: grey;
 }
 
 .unfavorite-button {
-  color: gray;
+  color: red;
 }
 
 .tracks {
@@ -134,4 +138,10 @@
 .none-text {
   text-align: center;
   transform: translateY(10rem);
+}
+
+
+.welcome-text{
+  margin-top: 0px;
+  
 }
