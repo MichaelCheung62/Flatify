@@ -5,7 +5,10 @@
 }
 
 
- 
+.logo {
+  width: 10%;
+  transform: translate(30%, 20%)
+}
 
 .nav {
   display: flex;
@@ -27,7 +30,7 @@
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  transform: translate(10%, -30%)
+  transform: translate(10%, -130%)
 }
 
 .nav-items > li {
