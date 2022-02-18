@@ -8,8 +8,11 @@ const albumCovers = [
     },
 
     {
-        image: "https://www.udiscovermusic.com/wp-content/uploads/2015/10/Joy-Division-Unknown-Pleasures-1024x1024.jpg"
+        image: "https://www.udiscovermusic.com/wp-content/uploads/2015/10/Kendrick-Lamar-To-Pimp-a-Butterfly.jpg"
 
+    },
+    {
+        image: "https://www.udiscovermusic.com/wp-content/uploads/2015/10/Dr-Dre-The-Chronic-album-cover.jpg"
     },
 ]
 
