@@ -46,7 +46,7 @@ function Playlist({ playlistId, playlist, hideButton }) {
             onClick={handleFavoriteClick}
             className="unfavorite-button"
           >
-            ✖
+          ♥️
           </button>
         )}
       </div>

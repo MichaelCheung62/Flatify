@@ -4,6 +4,7 @@ import './App.css';
 
 import { getTokenFromUrl, getExpiresInFromUrl } from './spotify';
 import { getUser } from './utils';
+import Homepage from './components/Homepage';
 
 import Login from './components/Login';
 
@@ -25,6 +26,8 @@ function App() {
     };
 
     loadUser();
+
+
 
     // Check for expire time in localstorage
     const expires = parseInt(window.localStorage.getItem('expires'));
@@ -76,8 +79,9 @@ function App() {
       {!spotifyToken ? (
         <Login />
       ) : (
-        <h1 className="welcome-text">Welcome {user}</h1>
+        <h1 className="welcome-text">Welcome</h1>        
       )}
+      <Homepage  />
     </div>
   );
 }
