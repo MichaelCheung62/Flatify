@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './flatifylogo.png'
 
 import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
     <div className="nav">
-      <img src={logo} className="logo"></img>
+      <h2>Flatify</h2>
       <ul className="nav-items">
         <li>
           <Link to="/">Home</Link>

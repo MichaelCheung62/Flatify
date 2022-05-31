@@ -30,7 +30,6 @@ function Playlists() {
         ))
       ) : (
         <h2 className="none-text">
-          
           You currently have no playlists. Go create some!
         </h2>
       )}

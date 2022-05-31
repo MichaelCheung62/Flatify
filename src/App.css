@@ -4,25 +4,19 @@
   height: 100vh;
 }
 
-
-.logo {
-  width: 10%;
-  transform: translate(30%, 20%)
+.welcome-text {
+  transform: translateY(10rem);
 }
 
 .nav {
   display: flex;
   align-items: center;
-  background-color: gray;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
-
-
 
 .nav h2 {
   margin: 0 11rem;
-  transform: translate(-60%, 60%)
-  
-  
 }
 
 .nav-items {
@@ -30,7 +24,6 @@
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  transform: translate(10%, -130%)
 }
 
 .nav-items > li {
@@ -69,11 +62,11 @@
 }
 
 .favorite-button {
-  color: grey;
+  color: red;
 }
 
 .unfavorite-button {
-  color: red;
+  color: gray;
 }
 
 .tracks {
@@ -141,10 +134,4 @@
 .none-text {
   text-align: center;
   transform: translateY(10rem);
-}
-
-
-.welcome-text{
-  margin-top: 0px;
-  
 }
